@@ -1,0 +1,52 @@
+{
+ "minecraft:entity": {
+  "version": 1,
+  "component_groups": {
+   "minecraft:exploding": {
+    "minecraft:explode": {
+     "fuseLength": 0,
+        "fuseLit": true,
+        "power": 1.5,
+        "causesFire": false
+    }
+   }
+  },
+  "components": {
+   "minecraft:identifier": {
+    "id": "minecraft:arrow.skeleton"
+   },
+   "minecraft:collision_box": {
+    "width": 0.15,
+    "height": 0.15
+   },
+   "minecraft:projectile": {
+    
+    "onHit": {
+"definition_event": {
+      "affectProjectile": false,
+      "eventTrigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+      }
+     }
+    },
+    "power": 3,
+    "gravity": 0,
+    "uncertaintyBase": 16,
+    "uncertaintyMultiplier": 4,
+    "anchor": 1,
+    "offset": [ 0, -0.1, 0 ]
+   }
+
+  },
+  "events": {
+   "minecraft:explode": {
+    "add": {
+     "component_groups": [
+      "minecraft:exploding"
+     ]
+    }
+   }
+  }
+ }
+}

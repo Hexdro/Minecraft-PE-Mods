@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Dragon Ball Z in Minecraft, by Hexdro.",
+        "name": "Dragon Craft Z v3",
+        "uuid": "dbab32b8-5ccf-11e7-907b-a6006ad3dba0",
+        "version": [0, 0, 3]
+    },
+    "modules": [
+        {
+            "description": "Dragon Ball Z in Minecraft, by Hexdro.",
+            "type": "data",
+            "uuid": "dbab356a-5ccf-11e7-907b-a6006ad3dba0",
+            "version": [0, 0, 3]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "dbab3664-5ccf-11e7-907b-a6006ad3dba0",
+            "version": [0, 0, 3]
+        }
+    ]
+}
