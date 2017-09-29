@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "DayZ v2 Resource Pack",
+        "name": "DayZ v2 Resource Pack",
+        "uuid": "43d9e7b4-64bc-11e7-907b-a6006ad3dba0",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+			"description": "DayZ v2 Resources",
+            "type": "resources",
+            "uuid": "43d9ea34-64bc-11e7-907b-a6006ad3dba0",
+			"version": [0, 0, 1]
+        }
+    ]
+}

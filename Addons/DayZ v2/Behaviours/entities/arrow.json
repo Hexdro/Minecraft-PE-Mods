@@ -1,0 +1,37 @@
+{
+  "minecraft:entity": {
+    "version": 1,
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:arrow.skeleton"
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:projectile": {
+       "onHit": {
+        "impact_damage": {
+         "damage": 10,
+         "knockback": true,
+         "semirandomdiffdamage": true,
+         "destroyonhit": true
+        },
+        "stick_in_ground": {
+        },
+        "arrow_effect": {
+        }
+       },
+       "hitSound": "bow.hit",
+       "power": 10,
+       "gravity": 0.05,
+       "uncertaintyBase": 16,
+       "uncertaintyMultiplier": 4,
+       "anchor": 1,
+       "shouldbounce": true,
+       "offset": [ 0, -0.1, 0 ]
+      }
+    }
+  }
+}
